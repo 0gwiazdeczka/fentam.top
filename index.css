@@ -1,0 +1,107 @@
+body {
+    background-color: #EAA44F;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #FF8016;
+    float: left;
+    width: 100%;
+}
+
+.jakub-video video {
+    position: relative;
+    width: 20%;
+    height: 40%;
+    object-fit: cover;
+    transform: translate(5%, 30%);
+}
+
+.jakub-video .jakub-text { 
+    font-family: "Archivo", sans-serif; 
+    position: absolute;
+    left: 3vw;
+    top: 15%;
+    text-align: center;
+    width: 16%;
+    color: #fff;
+    font-size: 0.8vw;
+}
+
+.kiru-video video {
+    position: relative;
+    width: 20%;
+    height: 40%;
+    object-fit: cover;
+    transform: translate(395%, -70%);
+}
+
+.kiru-video .kiru-text { 
+    font-family: "Archivo", sans-serif; 
+    position: absolute;
+    right: 3vw;
+    top: 15%;
+    text-align: center;
+    width: 16%;
+    color: #fff;
+    font-size: 0.8vw;
+}
+
+.tapczan-video video {
+    position: relative;
+    width: 20%;
+    height: 40%;
+    object-fit: cover;
+    transform: translate(395%, -45%);
+}
+
+.tapczan-video .tapczan-text { 
+    font-family: "Archivo", sans-serif; 
+    position: absolute;
+    right: 3vw;
+    top: 43%;
+    text-align: center;
+    width: 16%;
+    color: #fff;
+    font-size: 0.8vw;
+}
+
+.fentam {
+    font-family: "Cherry Bomb One", system-ui;
+    color: #F9F9F9;
+    font-size: 1vw;
+    text-align: center;
+    position: relative;
+    float: left;
+    top: 0.7vw;
+    right: 0.5vw;
+}
+
+.fent {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    float: left;
+    width: 11%;
+    object-position: top 1.5vw;
+}
+
+.janeks {
+    font-family: "Cherry Bomb One", system-ui;
+    color: #F9F9F9;
+    font-size: 1vw;
+    text-align: center;
+    position: relative;
+    float: right;
+    top: 0.7vw;
+    right: 0.5vw;
+}
+
+.janeksimg {
+    max-width: 100%;
+    height: auto;
+    float: right;
+    width: 6%;
+}
